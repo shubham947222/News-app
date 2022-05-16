@@ -95,7 +95,7 @@ function App() {
             }
           />
           <Route path="/login" element={<Login />} />
-          <Route path="/signUp" element={<SignupWithValidation />} />
+//           <Route path="/signUp" element={<SignupWithValidation />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </Router>
